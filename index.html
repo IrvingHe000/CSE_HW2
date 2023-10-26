@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Portfolio</title>
+    <link rel="stylesheet">
+    <style>
+    </style>
+    <script>
+    </script>
+</head>
+<body>
+<header>
+    <h1>Welcome to Outong's Portfolio</h1>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" />
+    </svg>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+        </ul>
+    </nav>
+</header>
+<aside>
+    <h3>Update</h3>
+    <p><strong>Oct 23, 2023:</strong> My latest project has just gone live!.</p>
+</aside>
+<main>
+    <section>
+        <h2>Contact Me</h2>
+        <form method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:
+                    <input type="text" id="name" name="name" required>
+                </label>
+                <label for="email">Email:
+                    <input type="text" id="email" name="email" required>
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Message</legend>
+                <label for="message">Your Message:
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </label>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Purpose</legend>
+                <label for="service">Your Purpose:
+                    <input list="services" id="service" name="service" required>
+                    <datalist id="services">
+                        <select id="position" name="position" required>
+                            <option value="Job offering">
+                            <option value="Project cooperation">
+                            <option value="Coffee Chat">
+                            <option value="Make friends">
+                        </select>
+                    </datalist>
+                </label>
+            </fieldset>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+<hr>
+<footer>
+    <p>Copyright © 2023 by <span>Outong</span></p>
+    <details>
+        <summary>Legal Information</summary>
+        <p>This is the legal information related to the portfolio site.</p>
+    </details>
+</footer>
+<audio controls>
+    <source src="#" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+<video width="320" height="240" controls>
+    <source src="#" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<canvas id="canvas" width="120" height="120"></canvas>
+
+</body>
+</html>
